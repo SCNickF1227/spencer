@@ -364,7 +364,7 @@ def search_log_file(os_version):
         ERROR_PATTERN_NFS_MOUNT_ISSUE,
         ERROR_PATTERN_NFS_ACCESS_DENIED
     ]
-    with open('/var/log/messages', 'r') as file:
+    with open('/var/log/messages', 'r', errors='ignore') as file:
         for i, line in enumerate(file):
             line_lower = line.lower()  # Convert the line to lowercase for case-insensitive matching
             for pattern_tuple in error_patterns:
