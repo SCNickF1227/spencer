@@ -4,13 +4,13 @@
 # The initial version of this script is versioned v1.1 and was written by ChatGPT and NickF
 # -----------------------------------------------
 # Version 2.0 08/22/23
-# Refactored alot of code.
+# Refactored a lot of code.
 # Dynamically determine whether run from MultiReport or if Spencer is called directly.
 # Overall improvements to robustness of the script, the accuracy of it's findings, and an increase in scope.
 # New search patterns and customizability.
 # -----------------------------------------------
-# Verion 1.3 08/13/23 - Contibution by JoeSchmuck merged
-# Added a new feature for tracking and reporting previous errors differantly than new errors.
+# Version 1.3 08/13/23 - Contribution by JoeSchmuck merged
+# Added a new feature for tracking and reporting previous errors differently than new errors.
 # -----------------------------------------------
 # This updated script will run normally and will run with Multi-Report.
 # To use with Multi-Report, call the script with parameter 'multi_report'.
@@ -25,7 +25,7 @@
 # 3-Do not include any line of data twice.  So a list of error messages would start with the message before the error
 #   and end with the non-error message after the sting of errors.
 # 4-When determining if a problem is new or old, conduct an exact match line by line to the file you saved in step 1.
-#   Do not just count the number of errors becasue if 4 errors clear and 4 new errors are generated, the user will never know
+#   Do not just count the number of errors because if 4 errors clear and 4 new errors are generated, the user will never know
 #   about the new errors under the current setup.  I considered creating a file to solve this but my Python skills are limited.
 # 5-Remove all my "# (Joe)" comments, they are there to make it clear to you what lines I changed.
 # 6-I want to leave this script in your hands because I do not have a SAS or iSCSI interface so I'm not the correct person to maintain this.
