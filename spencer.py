@@ -75,7 +75,7 @@ ERRORS_FILE = "previous_errors.json"
 CONTENT_FILE = "/tmp/spencer_report.txt"
 # Set the filename for the content file to "/tmp/spencer_report.txt"
 print(f"{datetime.datetime.now()} - Spencer V2.0 - BETA - 8/22/23.")
-print(f"{datetime.datetime.now()} - Writen by NickF with Contributions from JoeSchmuck")
+print(f"{datetime.datetime.now()} - Written by NickF with Contributions from JoeSchmuck")
 print(f"{datetime.datetime.now()} - Spencer is checking log files for errors{' and pushing output to Multi-Report' if USE_WITH_MULTI_REPORT == 'multi_report' else ''}.")
 # -----------------------------------------------
 # Error Patterns List
