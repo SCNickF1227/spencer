@@ -1,7 +1,6 @@
 Cross Posted from Here, Source Available for Distibution: [Spencer V2.0-BETA 1- Now with Pineapple - An Email Alert Script for Potentially Hidden Problems | TrueNAS Community](https://www.truenas.com/community/resources/spencer-v2-0-beta-1-now-with-pineapple-an-email-alert-script-for-potentially-hidden-problems.226/)
 
-![R (1).jpg](upload://zEJEdrN39E2L960P5qp4D3spRfZ.jpeg)
-
+![R (1).jpg](docs/R%20(1).jpg)
 
 ```
 **Spencer v2.0 BETA-1**
@@ -26,7 +25,6 @@ Cross Posted from Here, Source Available for Distibution: [Spencer V2.0-BETA 1- 
 
 # -----------------------------------------------
 ```
-
 
 🍍 **A special thanks to [**@joeschmuck**](https://www.truenas.com/community/members/joeschmuck.101/) for his recent and welcome contributions!!** 🍍
 
@@ -72,7 +70,7 @@ So, in a nutshell: this script is like me if I were a bunch of code, always on t
 
 ****🍍 **The Delicious Menu of Error Patterns** 🍍****
 
-****![Pineapple](upload://eOPAx1rYlj5EBsxJbY8g2vsatx3.jpeg)****
+****![Pineapple](docs/81afc8f9c6dfdf68b4b480e0844e054c.jpg)****
 
 ---
 
@@ -153,11 +151,11 @@ So, in a nutshell: this script is like me if I were a bunch of code, always on t
 
 And remember, when things go sideways, always keep a pineapple handy. Oh, and maybe a technician. But mostly the pineapple.
 
-****![Pineapple](upload://uQiIxiH9HYzcYHArx2WyLljRyro.jpeg)**** ______________________________________________________________________________________
+****![Pineapple](docs/1727a64c0d8e6180495a83500f61335e.jpg)**** ______________________________________________________________________________________
 
 **You can run the script as a cron job!**
 
-![1688687876781.png](upload://oYO8JNYupSHi7VcI98BcfdwiN9l.png)
+![1688687876781.png](docs/1688687876781.png)
 
 __________________________________________________________________________________________________________________
 
@@ -260,7 +258,7 @@ ACPI Exception ------------------------------------------- [1] ----- [Moderate S
 <font size="4"><strong>Say goodbye to extra Cronjobs – they won't be missed!</strong></font>
 <font size="4"><strong>Get ready for the ultimate truth email, no more double trouble.</strong></font>
 
-```
+```shell
 Multi-Report v2.4.3a dtd:2023-08-16 (TrueNAS Scale 22.12.2)
 
 Checking for Updates
@@ -271,6 +269,7 @@ No Update Required
 
 2023-08-16 23:14:15.789564 - Spencer is checking log files for errors and pushing output to Multi-Report.
 ```
+
 ![image|697x550](upload://lD9uNc7nbuTioLfSi7mHduy6UNh.png)
 
 <center><h2><font color="red">🔥 SPENCER V2.0 - BETA - 8/22/23</font></h2></center>
